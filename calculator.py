@@ -1,5 +1,7 @@
 def add(a, b):
-    return a + b
+    # varianta 1
+    result = a + b
+    return result
 
 def subtract(a, b):
     return a - b
