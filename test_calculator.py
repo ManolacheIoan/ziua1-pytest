@@ -1,4 +1,4 @@
-from calculator import add, subtract, divide, multiply, is_even, is_positive, power
+from calculator import add, subtract, divide, multiply, is_even, is_positive, power, modulo
 import pytest
 
 def test_add():
@@ -71,3 +71,7 @@ def test_subtract_with_fixture(sample_numbers):
 ])
 def test_add_parametrized(a, b, expected):
     assert add(a, b) == expected
+
+
+def test_modulo():
+    assert modulo(10, 3) == 1
