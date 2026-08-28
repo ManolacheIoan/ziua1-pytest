@@ -13,3 +13,11 @@ of basic testing principles, regardless of technology.
 5. Pesticide paradox - repeated tests become less effective over time
 6. Testing is context dependent
 7. Absence of errors is a fallacy - product can still be unusable
+
+## Software Testing Life Cycle (STLC)
+1. Requirement Analysis - understanding what needs to be tested
+2. Test Planning - strategy, resources, timeline
+3. Test Case Development - writing concrete test cases
+4. Test Environment Setup - preparing the testing environment
+5. Test Execution - running the tests
+6. Test Cycle Closure - reporting results, lessons learned
