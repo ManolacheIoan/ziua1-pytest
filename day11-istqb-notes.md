@@ -31,3 +31,7 @@ of basic testing principles, regardless of technology.
 - Smoke testing: quick basic tests before detailed testing
 - Black-box testing: without knowledge of internal code structure
 - White-box testing: with knowledge of internal code structure
+
+## Defect Life Cycle
+New -> Assigned -> Open -> Fixed -> Retest -> Verified -> Closed
+(or Reopened, if the bug reappears after the fix)
