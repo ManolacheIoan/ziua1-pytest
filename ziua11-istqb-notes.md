@@ -21,3 +21,13 @@ de baza ale testarii, indiferent de tehnologie.
 4. Test Environment Setup - pregatirea mediului
 5. Test Execution - rularea testelor
 6. Test Cycle Closure - raportare rezultate, lectii invatate
+
+## Tipuri de testare
+- Unit testing: testezi o functie/componenta izolata
+- Integration testing: interactiunea intre mai multe componente
+- System testing: intregul sistem, end-to-end
+- Acceptance testing: verifici ca satisface cerintele utilizatorului
+- Regression testing: retestezi dupa schimbari
+- Smoke testing: teste rapide de baza, inainte de teste detaliate
+- Black-box testing: fara cunoasterea codului intern
+- White-box testing: cu cunoasterea structurii interne a codului
