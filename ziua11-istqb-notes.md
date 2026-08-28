@@ -31,3 +31,7 @@ de baza ale testarii, indiferent de tehnologie.
 - Smoke testing: teste rapide de baza, inainte de teste detaliate
 - Black-box testing: fara cunoasterea codului intern
 - White-box testing: cu cunoasterea structurii interne a codului
+
+## Defect Life Cycle
+New -> Assigned -> Open -> Fixed -> Retest -> Verified -> Closed
+(sau Reopened, daca bug-ul reapare dupa fix)
