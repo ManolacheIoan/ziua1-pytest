@@ -21,3 +21,13 @@ of basic testing principles, regardless of technology.
 4. Test Environment Setup - preparing the testing environment
 5. Test Execution - running the tests
 6. Test Cycle Closure - reporting results, lessons learned
+
+## Types of Testing
+- Unit testing: testing an isolated function/component
+- Integration testing: testing interaction between components
+- System testing: testing the entire system, end-to-end
+- Acceptance testing: verifying the system meets user requirements
+- Regression testing: retesting after changes to confirm nothing broke
+- Smoke testing: quick basic tests before detailed testing
+- Black-box testing: without knowledge of internal code structure
+- White-box testing: with knowledge of internal code structure
