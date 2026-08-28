@@ -13,3 +13,11 @@ de baza ale testarii, indiferent de tehnologie.
 5. Paradoxul pesticidului - testele repetate devin mai putin eficiente
 6. Testarea depinde de context
 7. "Nicio eroare" e o iluzie - produsul poate fi tot inutilizabil
+
+## Software Testing Life Cycle (STLC)
+1. Requirement Analysis - ce trebuie testat
+2. Test Planning - strategie, resurse, timeline
+3. Test Case Development - scrierea cazurilor de test
+4. Test Environment Setup - pregatirea mediului
+5. Test Execution - rularea testelor
+6. Test Cycle Closure - raportare rezultate, lectii invatate
