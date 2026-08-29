@@ -14,6 +14,11 @@ de dezvoltare (Git, CI/CD).
 - `pages/login_page.py` — Page Object Model
 - `test_login_pom.py` — teste de login folosind POM
 - `conftest.py` — fixture pentru driver Selenium cu setup/teardown automat
+- `test_checkboxes.py` — additional Selenium tests using find_elements and is_selected
+
+### QA Theory & Practice
+- `day11-istqb-notes.md` — ISTQB Foundation core concepts
+- `day11-regression-testing-demo.md` — hands-on regression testing demonstration
 
 ### CAN bus (comunicare embedded auto)
 - `can_basic.py` — simulare mesaj CAN cu python-can
