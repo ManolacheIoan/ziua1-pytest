@@ -43,3 +43,8 @@ def test_create_post():
     data = response.json()
     assert data["title"] == "Test post"
     assert "id" in data
+
+
+def test_delete_post():
+    response = requests.delete(f"{BASE_URL}/posts/1")
+    assert response.status_code == 200
