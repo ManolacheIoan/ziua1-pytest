@@ -24,6 +24,10 @@ de dezvoltare (Git, CI/CD).
 - `can_basic.py` — simulare mesaj CAN cu python-can
 - `test_can.py` — teste send/receive pe bus CAN virtual
 
+### API Testing
+- `test_api_basic.py` — GET/POST requests, status codes, error handling
+- `test_api_pom.py` — reusable session fixture, parametrized API tests
+
 ### C basics
 - `ziua6-c-basics/` — variabile, pointeri, structuri, functii
 
