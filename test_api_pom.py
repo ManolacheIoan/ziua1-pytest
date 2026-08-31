@@ -36,3 +36,10 @@ def test_response_time_is_reasonable(api_session):
     
     assert response.status_code == 200
     assert response.elapsed.total_seconds() < 2
+
+
+def test_response_headers(api_session):
+    response = api_session.get(f"{BASE_URL}/posts/1")
+    
+    assert response.status_code == 200
+    assert "application/json" in response.headers["Content-Type"]
