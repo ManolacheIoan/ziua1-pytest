@@ -48,3 +48,17 @@ def test_create_post():
 def test_delete_post():
     response = requests.delete(f"{BASE_URL}/posts/1")
     assert response.status_code == 200
+
+
+def test_update_post():
+    updated_data = {
+        "id": 1,
+        "title": "Updated title",
+        "body": "Updated body",
+        "userId": 1
+    }
+    response = requests.put(f"{BASE_URL}/posts/1", json=updated_data)
+    
+    assert response.status_code == 200
+    data = response.json()
+    assert data["title"] == "Updated title"
