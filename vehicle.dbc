@@ -11,3 +11,6 @@ BO_ 291 SPEED_MSG: 2 ECU
 
 BO_ 292 TEMP_MSG: 1 ECU
  SG_ EngineTemp : 0|8@1+ (1,-40) [-40|215] "C" ECU
+
+BO_ 293 RPM_MSG: 2 ECU
+ SG_ RPM : 0|16@1+ (1,0) [0|8000] "rpm" ECU
