@@ -27,6 +27,7 @@ de dezvoltare (Git, CI/CD).
 ### API Testing
 - `test_api_basic.py` — GET/POST/PUT/DELETE requests, status codes, error handling
 - `test_api_pom.py` — reusable session fixture, parametrized tests, response time and headers validation
+- `postman/` — Postman collection with manual + automated (JS) API tests, runnable via Newman CLI for CI/CD integration
 
 ### C basics
 - `ziua6-c-basics/` — variabile, pointeri, structuri, functii
