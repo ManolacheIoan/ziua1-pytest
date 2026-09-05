@@ -12,3 +12,5 @@ output.xml
 selenium-screenshot-*.png
 node_modules/
 package-lock.json
+node_modules/
+package-lock.json
